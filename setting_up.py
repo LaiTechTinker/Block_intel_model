@@ -5,7 +5,10 @@ from pathlib import Path
 
 Project_name="Block_intel_classifier"
 list_of_files=[
+     f"{Project_name}/__init__.py",
      f"{Project_name}/components/__init__.py",
+     f"{Project_name}/WebScraping/__init__.py",
+        f"{Project_name}/WebScraping/webscraping.py",
     f"{Project_name}/components/Data_ingestion.py",
     f"{Project_name}/components/Data_validation.py",
     f"{Project_name}/components/Data_transformation.py",
@@ -20,6 +23,7 @@ list_of_files=[
     f"{Project_name}/entity/config_entity.py",
     f"{Project_name}/entity/artifact_entity.py",
     f"{Project_name}/utils/__init__.py",
+    f"{Project_name}/notebooks/__init__.py",
     f"{Project_name}/logger/__init__.py",
     f"{Project_name}/utils/main_utils.py",
     f"{Project_name}/pipline/__init__.py",
